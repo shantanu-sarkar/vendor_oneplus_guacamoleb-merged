@@ -12,6 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/guacamoleb/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/oneplus/guacamoleb/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/oneplus/guacamoleb/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
+    vendor/oneplus/guacamoleb/proprietary/odm/bin/init.oplus.wifi.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.wifi.sh \
     vendor/oneplus/guacamoleb/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
     vendor/oneplus/guacamoleb/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/oneplus/guacamoleb/proprietary/odm/etc/acdbdata/Codec_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Codec_cal.acdb \
@@ -44,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/guacamoleb/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/guacamoleb/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/guacamoleb/proprietary/odm/etc/tunings.txt:$(TARGET_COPY_OUT_ODM)/etc/tunings.txt \
+    vendor/oneplus/guacamoleb/proprietary/odm/etc/wifi/bdwlan.57:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.57 \
+    vendor/oneplus/guacamoleb/proprietary/odm/etc/wifi/init.project.wifi.sh:$(TARGET_COPY_OUT_ODM)/etc/wifi/init.project.wifi.sh \
     vendor/oneplus/guacamoleb/proprietary/odm/firmware/aw8697_About_School_RTP_17.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_About_School_RTP_17.bin \
     vendor/oneplus/guacamoleb/proprietary/odm/firmware/aw8697_Appear_channel_RTP_oplusos7_123.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Appear_channel_RTP_oplusos7_123.bin \
     vendor/oneplus/guacamoleb/proprietary/odm/firmware/aw8697_Bliss_RTP_18.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_Bliss_RTP_18.bin \
